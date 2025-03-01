@@ -1,1 +1,1 @@
-# Migde keyboard ZMK configuraion
+# Migde keyboard ZMK configuration
