@@ -29,21 +29,21 @@
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
 		input-gpios
-= <&nice_nano_p  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-, <&nice_nano_p  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  = <&zephyr,user  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+  , <&zephyr,user  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 		;
 	};
 
