@@ -429,9 +429,9 @@
 
         default_layer {
             bindings = <
-                &kp Q       &kp J       &kp W       &kp M       &kp G           &kp P       &kp F       &kp U       &kp Y       &kp X
-                &kp A       &kp R       &kp S       &kp T       &kp V           &kp B       &kp N       &kp E       &kp I       &kp O
-                            &kp L       &kp C       &kp D                                   &kp H       &kp Z       &kp K
+                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
+                &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
+                            &kp X       &kp C       &kp V                                   &kp M       &kp COMMA   &kp DOT
                                                   SL(NAV_L)   &kp SPACE         &kp BSPC    SL(NUM_L)
             >;
         };
